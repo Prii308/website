@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>details</title>
+    </head>
+    <body>
+      <form action="index.html" method="post">
+        <div>
+            <label for="name">NAME:</label>
+            <input type="text" id="name" name="name"required>
+        </div><br>
+        <div>
+            <label>EMAIL:</label>
+            <input type="email" required>
+        </div><br>
+        
+
+
+        <label for="birth">BIRTH DATE:</label>
+        <input type="date" id="birth" name="birth" value="2003-06-17" min="1970-01-01" max="2005-01-01">
+        <br>
+        <br>
+        
+
+        <label for="profile">CHOOSE PROFILE PICTURE:</label>
+        <input TYPE="file" id="profile" name="profile" accept="image/png,image/jpg,image/jpeg"><br><br>
+
+        <label for="pass">SET PASSWORD:</label>
+        <input type="password" id="pass" name="pass" minlength="4" required><br>
+        <input type="submit" value="set password">
+
+        <p>ARE YOU INTERESTED IN BOOKS:<button type="button">click here</button></p>
+        <fieldset>
+            <legend>WHICH TYPE OF BOOK ARE YOU LOOKING FOR?</legend>
+            <input type="radio" id="fiction" name="book">
+            <label for="fiction">FICTION</label>
+            <br>
+            <input type="radio" id="non-fiction" name="book">
+            <label for="non-fiction">NON-FICTION</label>
+            <br>
+            <input type="radio" id="biography" name="book">
+            <label for="biography">BIOGRAPHY</label>
+            <br>
+        </fieldset><br><br>
+
+
+        <input type="button" value="i'm not a robot"><br><br>
+        <fieldset>
+            <legend>BOOKS YOU WANT TO READ</legend>
+            <input type="checkbox" id="ncert" name="ncert" checked>
+            <label for="ncert">NCERT</label>
+            <br>
+            <input type="checkbox" id="kafka" name="kafka" >
+            <label for="ncert">KAFKA</label>
+            <br>
+            <input type="checkbox" id="lakshmikant" name="lakshmikant" >
+            <label for="ncert">LAKSHMIKANT</label>
+        </fieldset><br>
+
+
+        <p>PAGE COLOR FOR YOUR BOOK:</p>
+        <input type="color" id="white" name="white" value="#ffffff">
+        <label for="white">WHITE</label><br>
+        <input type="color" id="black" name="black" value="#000000">
+        <label for-"black">BLACK</label><br><br>
+
+        <div>
+            <input type="submit" value="SUBMIT">
+        </div>
+    </form>
+    </body>
+</html>
